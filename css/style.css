@@ -3194,7 +3194,7 @@ label {
 }
 .products__popap-entered:target {
   animation-name: popap;
-  animation-duration: 5s;
+  animation-duration: 3s;
   animation-timing-function: ease-in;
   animation-direction: forwards;
 }
@@ -3519,6 +3519,10 @@ label {
 }
 
 .products__counting-card:target {
+  opacity: 1;
+}
+
+.opacity-popap {
   opacity: 1;
 }
 
