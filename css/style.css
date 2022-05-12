@@ -3526,6 +3526,16 @@ label {
   opacity: 1;
 }
 
+.quantity input {
+  background-color: rgba(196, 196, 196, 0);
+  border-radius: 0px;
+}
+
+.quantity input:focus {
+  border: 1px solid #FF7A2E;
+  border-radius: none;
+}
+
 /*
 .icon-menu {
 	display: none;
