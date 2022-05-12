@@ -3536,6 +3536,16 @@ label {
   border-radius: none;
 }
 
+.close-position {
+  top: 4px;
+  right: 3px;
+}
+
+.products__button-delet {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 /*
 .icon-menu {
 	display: none;

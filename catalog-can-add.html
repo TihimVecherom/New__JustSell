@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20220512131158">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220512152111">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -45,6 +45,7 @@
 				</div>
 
 				<div id="popap-delet-product" class="products__popap-entered popap-position  popap-no-animation">
+					<a class="products__error-close popap-close close-position" href="#"></a>
 					<div class="products__popap-enteretext popap-color-text-red not-picture-and-padding-top">Ви впевнені,
 						що
 						хочете видалити товар?</div>
@@ -99,7 +100,7 @@
 						</div>
 						<div class="products__form-choice-text-link">
 							<div class="products__form-choice-name">Податок</div>
-							<a class="products__form-choice-link" href="#popap-foto-product"> Редагувати</a>
+							<a class="products__form-choice-link" href="#popap-tax"> Редагувати</a>
 						</div>
 						<div class="products__form-choice-text-link">
 							<div class="products__form-choice-name">Податок включений у вартість</div>
@@ -158,10 +159,11 @@
 
 
 				<div id="popap-change-photo" class="products__popap-entered popap-position popap-no-animation">
+					<a class="products__error-close popap-close close-position" href="#"></a>
 					<div class="products__menu menu-popap">
 						<div class="products__picture picture-ibg picture-color-size popap-picture">
 
-							<a class="products__button-core color-black" href="#popap-foto-saved">Змінити</a>
+							<a class="products__button-core color-black" href="#popap-foto-product">Змінити</a>
 						</div>
 						<div class="products__menu-text text-start">
 							<div class="products__name text-border">Кава “Еспресо”</div>
@@ -178,14 +180,23 @@
 						</div>
 					</div>
 				</div>
+			</div>
 
 
-
+			<div id="popap-foto-product" class="products__popap-entered entered-popap-gallery popap-no-animation absolute popap-position">
+				<a class="products__error-close popap-close close-position" href="#"></a>
+				<div class="products__popap-gallery-text">Фотографія продукту</div>
+				<a class="products__button-core color-orange-size text-picture-gallery" href="#popap-foto-saved">Виберіть
+					фото з
+					галереї
+				</a>
+				<a class="products__button-core color-orange-size text-picture-camera" href="#">Зробити
+					фото</a>
 			</div>
 
 
 
-			<div id="popap-foto-product" class="products__popap-entered popap-no-fix-size popap-no-animation">
+			<div id="popap-tax" class="products__popap-entered popap-no-fix-size popap-no-animation">
 				<a class="products__error-close popap-close" href="#"></a>
 				<div class="products__popap-gallery-text">Виберіть податки </div>
 				<div class="products__paragraf paragraf-grey popap-tax-paragraf">Сума податку буде автоматично
@@ -284,7 +295,7 @@
 </div>
  -->
 
-	<script src="js/app.min.js?_v=20220512131158"></script>
+	<script src="js/app.min.js?_v=20220512152111"></script>
 </body>
 
 </html>
