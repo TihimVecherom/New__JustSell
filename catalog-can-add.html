@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20220512114626">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220512131158">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,9 +22,42 @@
 		<main class="page">
 			<div id="products-home" class="products">
 
+
 				<div id="popap-entered" class="products__popap-entered popap-position">
 					<div class="products__popap-enteretext">Товар внесено!</div>
 				</div>
+
+				<div id="popap-QR-saved" class="products__popap-entered popap-position">
+					<div class="products__popap-enteretext">Штрихкод/QR збережено!</div>
+				</div>
+
+				<div id="popap-foto-saved" class="products__popap-entered popap-position">
+					<div class="products__popap-enteretext">Фото збережено!</div>
+				</div>
+
+
+				<div id="popap-change-made" class="products__popap-entered popap-position">
+					<div class="products__popap-enteretext">Зміни внесено!</div>
+				</div>
+
+				<div id="popap-remote-item" class="products__popap-entered popap-position">
+					<div class="products__popap-enteretext">Товар видалено!</div>
+				</div>
+
+				<div id="popap-delet-product" class="products__popap-entered popap-position  popap-no-animation">
+					<div class="products__popap-enteretext popap-color-text-red not-picture-and-padding-top">Ви впевнені,
+						що
+						хочете видалити товар?</div>
+					<div class="products__popap-button-block">
+						<a class="products__popap-button-delet" href="#popap-remote-item">Так</a>
+						<a class="products__popap-button-delet" href="#">Ні</a>
+					</div>
+				</div>
+
+
+
+
+
 
 				<div class="products__container">
 					<a href="catalog.html" class="products__exit-button button-catalog">
@@ -34,6 +67,10 @@
 					<div class="products__condition">
 
 					</div>
+
+
+
+
 
 					<div class="products__text">Здійснення оплати</div>
 					<div class="products__paragraf paragraf-grey">Ви можете додадавати або редактувати товари/послуги тільки
@@ -82,16 +119,18 @@
 						</div>
 						<div class="products__form-choice-text-link">
 							<div class="products__form-choice-name">Фотографія продукту</div>
-							<a class="products__form-choice-link link-choice link-choice-plus" href="#"></a>
+							<a class="products__form-choice-link link-choice link-choice-plus" href="#popap-change-photo"></a>
 						</div>
 						<div class="products__form-choice-text-link">
 							<div class="products__form-choice-name">Прив'язати штрихкод/QR</div>
-							<a class="products__form-choice-link link-choice link-choice-camera" href="#"></a>
+							<a class="products__form-choice-link link-choice link-choice-camera" href="#popap-QR-saved"></a>
 						</div>
 					</div>
 					<a href="#popap-entered" class="products__button-add add-plus">Додати</a>
 
 				</div>
+
+
 				<div class="down__menu">
 					<div class="down__menu-body">
 						<a href="P2P.html" class="down__menu-list">
@@ -118,9 +157,33 @@
 				</div>
 
 
+				<div id="popap-change-photo" class="products__popap-entered popap-position popap-no-animation">
+					<div class="products__menu menu-popap">
+						<div class="products__picture picture-ibg picture-color-size popap-picture">
+
+							<a class="products__button-core color-black" href="#popap-foto-saved">Змінити</a>
+						</div>
+						<div class="products__menu-text text-start">
+							<div class="products__name text-border">Кава “Еспресо”</div>
+							<div class="products__amount">
+								<div class="products__amount-text">Ціна:</div>
+
+								<div class="products__amount-price text-border">60.00 грн.</div>
+							</div>
+
+						</div>
+						<div class="products__button-block">
+							<a class="products__button-delet" href="#popap-delet-product"></a>
+							<a class="products__button-core color-green" href="#popap-change-made">Внести зміни</a>
+						</div>
+					</div>
+				</div>
+
 
 
 			</div>
+
+
 
 			<div id="popap-foto-product" class="products__popap-entered popap-no-fix-size popap-no-animation">
 				<a class="products__error-close popap-close" href="#"></a>
@@ -221,7 +284,7 @@
 </div>
  -->
 
-	<script src="js/app.min.js?_v=20220512114626"></script>
+	<script src="js/app.min.js?_v=20220512131158"></script>
 </body>
 
 </html>
