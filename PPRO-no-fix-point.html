@@ -2,7 +2,7 @@
 <html lang="ru">
 
 <head>
-	<title>Каталог товарів і послуг + не можна додавати товари і послуги</title>
+	<title>ПРРО + Додати НЕ фіскальну точку </title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
@@ -21,18 +21,42 @@
 		</header>
 		<main class="page">
 			<div id="products-home" class="products">
+
+
 				<div class="products__container">
-					<a href="catalog.html" class="products__exit-button button-catalog">
-						<div class="exit-button-text text-buttn-catalog">До каталогу</div>
-						<div class="exit-button-icon-catalog"></div>
+
+					<div id="popap-change-made" class="products__popap-entered popap-position">
+						<div class="products__popap-enteretext">Точку додано!</div>
+					</div>
+
+
+					<a href="authorization.html" class="products__exit-button">
+						<div class="exit-button-icon"></div>
+						<div class="exit-button-text">Exit</div>
 					</a>
 					<div class="products__condition">
 
 					</div>
 
-					<div class="products__text">Здійснення оплати</div>
-					<div class="products__paragraf paragraf-grey">Ви не можете додадавати товари/послуги</div>
+					<div class="products__text">Налаштування програмного РРО</div>
+					<div class="products__paragraf ">Тут ви можете додати <b>НЕ фіскальну точку продажів</b></div>
 
+					<div class="products__form-choice choice-form-min-width form-choice-margin-top form-choise-margin-bottom">
+
+
+						<div class="products__form-item">
+							<div class="products__choise-name">Назва<span class="red">*</span></div>
+							<input autocomplete="off" type="text" placeholder="" class="input">
+
+						</div>
+						<div class="products__form-item">
+							<div class="products__choise-name">Повна адреса<span class="red">*</span></div>
+							<input autocomplete="off" type="text" placeholder="Місто, район, вулиця, будинок" class="input">
+						</div>
+						<div class="products__choise-paragraf"><span class="red">*</span> - Поля обов’язкові для заповнення
+						</div>
+					</div>
+					<a href="#popap-change-made" class="products__button-add">Додати точку</a>
 
 				</div>
 				<div class="down__menu">
@@ -42,8 +66,8 @@
 							<div class="down__menu-item-text">Р2Р</div>
 						</a>
 						<a href="payments.html" class="down__menu-list">
-							<div class="down__menu-item item-img-two "></div>
-							<div class="down__menu-item-text ">Платежі</div>
+							<div class="down__menu-item item-img-two item-img-two-payments"></div>
+							<div class="down__menu-item-text item-img-two-color">Платежі</div>
 						</a>
 						<a href="#" class="down__menu-list">
 							<div class="down__menu-item item-img-three"></div>
@@ -61,13 +85,7 @@
 				</div>
 			</div>
 
-
-	</div>
-	</div>
-
-
-
-	</main>
+		</main>
 
 	</div>
 	<!-- 
