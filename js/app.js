@@ -3735,7 +3735,7 @@
             : e[0].focus();
         }
         popupLogging(e) {
-          this.options.logging && u(`[Попапос]: ${e}`);
+          this.options.logging && u();
         }
       }
       let i = {
@@ -3858,9 +3858,9 @@
               }, e);
           }
         };
-      function u(e) {
+      function u() {
         setTimeout(() => {
-          window.FLS && console.log(e);
+          window.FLS && console.log();
         }, 0);
       }
       function p(e, t) {
@@ -4361,7 +4361,7 @@
           );
         }
         setLogging(e) {
-          this.config.logging && u(`[select]: ${e}`);
+          this.config.logging && u();
         }
       }
       const f = { inputMaskModule: null, selectModule: null };

@@ -44,6 +44,9 @@
 			<li><a target="_blank" href="PPRO-no-fix-point.html">ПРРО + Додати НЕ фіскальну точку </a></li>
 			<li><a target="_blank" href="PPRO-fix-point.html">ПРРО + Додати фіскальну точку </a></li>
 			<li><a target="_blank" href="PPRO-fix-point-all.html">ПРРО + Додати фіскальну точку (Розгорнута інфа)</a></li>
+			<li><a target="_blank" href="list-of-operations.html">Список операцій</a></li>
+			<li><a target="_blank" href="list-of-operations-error.html">Список операцій - помилка оплати</a></li>
+			<li><a target="_blank" href="list-of-operations-error-found.html">Список операцій - знайдені операції</a></li>
 		</ol>
 		<h2>Попапы:</h2>
 		<ol class="rootpage__list">
@@ -68,29 +71,10 @@
 		</div>
 	</div>
 
-	<div ng-app="ui.bootstrap.demo">
-		<div ng-controller="DatepickerDemoCtrl">
-
-			<div class="form-group">
-
-				<div class="col-md-6">
-					<label for="appointment_start">Appointment datetime start:</label>
-					<p class="input-group">
-						<input type="date" id="appointment_start" name="appointment_start" class="form-control" readonly datepicker-popup ng-model="dt" is-open="status.opened" max-date="'2020-06-22'" datepicker-options="dateOptions" date-disabled="disabled(date, mode)" ng-required="true" close-text="Close" />
-						<span class="input-group-btn">
-							<button type="button" class="btn btn-default" ng-click="open($event)"><i class="glyphicon glyphicon-calendar"></i></button>
-						</span>
-					</p>
-				</div>
-
-				<timepicker ng-model="dt" hour-step="1" minute-step="15" show-meridian="true">
-				</timepicker>
-			</div>
-
-		</div><!-- ng-controller -->
-	</div><!-- ng-app -->
-
 </body>
+
+
+
 <style>
 	@charset "UTF-8";
 	@import url("https://fonts.googleapis.com/css?family=Montserrat:regular,700&display=swap");
