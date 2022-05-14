@@ -3968,7 +3968,7 @@ label {
 }
 
 .big-QR {
-  background: url("../img/products/list-operation/big-qr-code.jpg") center center no-repeat;
+  background: url("../img/products/QR.svg") center center no-repeat;
   width: 187px;
   height: 187px;
   margin: 0 auto;
@@ -4096,7 +4096,7 @@ label {
 }
 
 .checkbox-backgraund-eng {
-  background: url("../img/language/eng.svg") center center no-repeat;
+  background: url("../img/language/eng.svg") 3px center no-repeat;
   border-radius: 4px;
   position: relative;
   border: 1px solid rgba(0, 0, 0, 0);
@@ -4113,7 +4113,7 @@ label {
 }
 
 .checkbox-eng input:checked ~ .checkbox-backgraund-eng {
-  background: url("../img/language/eng.svg") center center no-repeat;
+  background: url("../img/language/eng.svg") 3px center no-repeat;
   border-radius: 4px;
   width: 24px;
   height: 16.5px;
@@ -4129,6 +4129,13 @@ label {
 .products-spollers__item input {
   width: 290px;
   margin: 0 auto;
+}
+
+.margin-position-popap {
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  margin-left: 105px;
 }
 
 /*
