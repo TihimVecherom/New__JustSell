@@ -4000,6 +4000,16 @@ label {
   transition: 0.2s;
 }
 
+.more-item-img-eight {
+  background: url("../img/language/language.svg") center center no-repeat;
+  transition: 0.2s;
+}
+
+.more-item-img-eight:hover .more-item-img-eight {
+  background: url("../img/language/language-orange.svg") center center no-repeat;
+  transition: 0.2s;
+}
+
 .input-password:focus {
   background: url("../img/form/icons_eye.svg") 97% center no-repeat;
 }
@@ -4136,6 +4146,96 @@ label {
   margin: 0 auto;
   margin-bottom: 50px;
   margin-left: 105px;
+}
+
+.more__language-text-block {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.more__language-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+}
+
+.ua {
+  padding-left: 30px;
+  background: url("../img/language/ua.svg") 0px center no-repeat;
+  height: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.eng {
+  padding-left: 30px;
+  background: url("../img/language/eng.png") 0px center no-repeat;
+  height: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.language__container {
+  padding-left: 34px;
+  padding-right: 34px;
+}
+
+.text-margin {
+  margin-bottom: 24px;
+}
+
+.text-margin-button {
+  margin-top: 36px;
+}
+
+.animation {
+  position: relative;
+}
+.animation__container {
+  position: absolute;
+  top: 35%;
+  margin-left: -500px;
+  animation-name: animation-container;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes animation-container {
+  100% {
+    margin-left: -55px;
+  }
+}
+.animation__logo {
+  background: url("../img/animation/logo.png") center center no-repeat;
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+  animation-name: animation-logo;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes animation-logo {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+.animation__text {
+  margin: 0 auto;
+  background: url("../img/animation/Justsell.png") center no-repeat;
+  background-size: 208px 37px;
+  width: 300px;
+  height: 37px;
+  transform: translate(-110px);
+  opacity: 0;
+  animation-name: animation-text;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes animation-text {
+  100% {
+    opacity: 1;
+  }
 }
 
 /*
