@@ -4005,7 +4005,7 @@ label {
   transition: 0.2s;
 }
 
-.more-item-img-eight:hover .more-item-img-eight {
+.more__menu-list:hover .more-item-img-eight {
   background: url("../img/language/language-orange.svg") center center no-repeat;
   transition: 0.2s;
 }
@@ -4171,8 +4171,8 @@ label {
 
 .eng {
   padding-left: 30px;
-  background: url("../img/language/eng.png") 0px center no-repeat;
-  height: 18px;
+  background: url("../img/language/eng.svg") 0px center no-repeat;
+  height: 17px;
   display: flex;
   align-items: center;
 }
@@ -4207,7 +4207,7 @@ label {
   }
 }
 .animation__logo {
-  background: url("../img/animation/logo.png") center center no-repeat;
+  background: url("../img/animation/logo.svg") center center no-repeat;
   background-size: cover;
   width: 80px;
   height: 80px;
@@ -4222,7 +4222,7 @@ label {
 }
 .animation__text {
   margin: 0 auto;
-  background: url("../img/animation/Justsell.png") center no-repeat;
+  background: url("../img/animation/Justsell.svg") center no-repeat;
   background-size: 208px 37px;
   width: 300px;
   height: 37px;
@@ -4236,6 +4236,18 @@ label {
   100% {
     opacity: 1;
   }
+}
+
+.checkbox-language {
+  display: block;
+}
+
+.checkbox-language .products__checkbox-backgraund {
+  margin-left: auto;
+}
+
+.margin-down {
+  margin-bottom: 10px;
 }
 
 /*
