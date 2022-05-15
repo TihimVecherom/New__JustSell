@@ -4207,7 +4207,7 @@ label {
   }
 }
 .animation__logo {
-  background: url("../img/animation/logo.png") center center no-repeat;
+  background: url("../img/animation/logo.svg") center center no-repeat;
   background-size: cover;
   width: 80px;
   height: 80px;
